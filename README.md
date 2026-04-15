@@ -9,6 +9,8 @@ Most of the code and setup was already given, so the goal was mainly to learn ho
 ## Phase 1: Simulation (Gazebo)
 In the first phase, we ran a TurtleBot in a simulated Gazebo environment and created a 2D map using ROS2 navigation tools.
 
+https://github.com/user-attachments/assets/f1ee6f89-cdb4-4db1-890b-da54ab761fbc
+
 The main tasks were:
 - Running the provided ROS2 setup
 - Using SLAM to build a map
