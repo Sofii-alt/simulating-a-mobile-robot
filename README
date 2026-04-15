@@ -2,7 +2,9 @@
 ---
 
 ## Overview
-This was a class project about mobile robotics using ROS2. The main focus was on TurtleBot mapping and navigation using the Nav2 stack. The project had two parts: first working in simulation (Gazebo), and then moving to real TurtleBots in a lab environment. Most of the code and setup was already given, so the goal was mainly to learn how ROS2 works and how the navigation system is used in practice.
+This was a class project about mobile robotics using ROS2. The main focus was on TurtleBot mapping and navigation using the Nav2 stack. 
+The project had two parts: first working in simulation, and then moving to real TurtleBots in a lab environment. 
+Most of the code and setup was already given, so the goal was mainly to learn how ROS2 works and how the navigation system is used in practice.
 
 ## Phase 1: Simulation (Gazebo)
 In the first phase, we ran a TurtleBot in a simulated Gazebo environment and created a 2D map using ROS2 navigation tools.
@@ -11,12 +13,15 @@ The main tasks were:
 - Running the provided ROS2 setup
 - Using SLAM to build a map
 - Learning how Nav2 works with mapping and navigation
+
 What went well
 - We successfully created a 2D map of the environment
 - Got more comfortable with ROS2 and the documentation
+
 Problems
 - Some issues when trying to load saved maps at the beginning
 - Took some time to understand how map loading works in Nav2
+
 
 ## Phase 2: Real Robot
 In the second part, the same idea is used on real TurtleBots in the lab. This part is more challenging because the real robot is not as stable as simulation.
@@ -24,9 +29,13 @@ In the second part, the same idea is used on real TurtleBots in the lab. This pa
 Current status
 - Simulation part is done
 - Preparing to run the same system on real robots
+
 Expected problems
 - Map loading might not always work smoothly
 - Real robot sensors and movement are less accurate than simulation
 
 ## Notes
-This project was mainly about learning ROS2 and Nav2, not about writing new code. Most of the work was following documentation and understanding how everything fits together. This project was primarily focused on understanding ROS2 and Nav2 rather than software development. Most implementation work relied on existing frameworks and documentation.
+This project was mainly about learning ROS2 and Nav2, not about writing new code. 
+Most of the work was following documentation and understanding how everything fits together. 
+This project was primarily focused on understanding ROS2 and Nav2 rather than software development. 
+Most implementation work relied on existing frameworks and documentation.
