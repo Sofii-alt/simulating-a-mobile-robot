@@ -36,6 +36,11 @@ Expected problems
 - Map loading might not always work smoothly
 - Real robot sensors and movement are less accurate than simulation
 
+Video of the turtlebot: ( add the video )
+- Drove the robot around the lab and made a map of it
+- In the end could not save the map itself becouse of problems with the system itself
+- But managed to get everything to work to get the map itself.
+
 ## Notes
 This project was mainly about learning ROS2 and Nav2, not about writing new code. 
 Most of the work was following documentation and understanding how everything fits together. 
